@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#1d3557,#457b9d);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.container{
+    width:450px;
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#1d3557;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+input,
+select{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    outline:none;
+}
+
+input:focus,
+select:focus{
+    border:1px solid #1d3557;
+}
+
+.gender{
+    margin-top:10px;
+}
+
+.gender input{
+    width:auto;
+    margin-left:10px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-top:25px;
+}
+
+button{
+    width:48%;
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button[type="submit"]{
+    background:#0077b6;
+    color:white;
+}
+
+button[type="submit"]:hover{
+    background:#023e8a;
+}
+
+button[type="reset"]{
+    background:#dc3545;
+    color:white;
+}
+
+button[type="reset"]:hover{
+    background:#b02a37;
+}
+
+@media(max-width:500px){
+
+.container{
+width:100%;
+}
+
+}

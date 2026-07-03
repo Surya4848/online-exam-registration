@@ -16,7 +16,7 @@ body{
 
 .container{
     width:450px;
-    background:#fff;
+    background:#df0000;
     padding:30px;
     border-radius:15px;
     box-shadow:0 10px 25px rgba(0,0,0,.3);
@@ -74,7 +74,7 @@ button{
 }
 
 button[type="submit"]{
-    background:#0077b6;
+    background:#d6c45d;
     color:white;
 }
 
